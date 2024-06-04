@@ -1,0 +1,6 @@
+Read only r
+Read and Write r+ (beginning of file)
+Write Only w (over-written)
+Write and Read w+ (over written)
+Append Only a (end of file)
+Append and Read a+ (end of file)
