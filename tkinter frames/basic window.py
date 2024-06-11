@@ -1,6 +1,6 @@
-from tkinter import *
+import tkinter as tk
 
-root = Tk()
+root = tk.Tk()
 root.title("main window")
 root.geometry("400x400+500+200")
 

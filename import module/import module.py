@@ -7,8 +7,6 @@ from test import test1,test2
 
 # 導入並改方法名
 from test import test3 as t
-test1()
-test2()
 t()
 
 # 導入並改模塊名
