@@ -40,3 +40,12 @@ for row in ws.iter_rows(min_row=1, max_row=4, min_col=1, max_col=5):
     # d= [c.value for c in row]
     # for e in d:
     #     print(e)
+
+# 遍历所有行和单元格
+for row in ws.iter_rows(max_row=3, max_col=5):
+    for cell in row:
+        print(cell.value)
+
+# 解释
+# sheet.iter_rows(): 这是 openpyxl 提供的一种方法，用于迭代工作表中的所有行。它返回一个包含所有行的生成器，每一行都是一个包含所有单元格的元组。
+# for cell in row:: 这是一个嵌套的循环，用于遍历每一行中的所有单元格。row 是一个包含该行所有单元格的元组，cell 是元组中的每一个单元格对象。

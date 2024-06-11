@@ -1,5 +1,3 @@
-
-
 def confirmation():
     while True:
         confirmation = input("请按下 Y 或 N 确认继续：")

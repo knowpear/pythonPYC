@@ -5,35 +5,195 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-04">
+      <change afterPath="$PROJECT_DIR$/Generator expressions/Generator expressions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/If statement/三目运算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/If statement/猜拳遊戲.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Input/input eg advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Input/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/Lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/Lambda判斷是否爲奇數.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operators 運算符/成員運算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operators 運算符/比較運算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operators 運算符/算數運算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operators 運算符/赋值运算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operators 運算符/身份运算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operators 運算符/逻辑运算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operators 運算符/運算符優先級.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pillow/⏳Pillow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practices/excel add imgs/excel_add_imgs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practices/excel add imgs/myExcel_Output.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practices/excel add imgs/yiqi asserts 實戰.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Print/.format().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Print/f-string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Print/print basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Print/print end &amp; Escaped characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter samples/basic window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/- Functions/geometry().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/- Functions/tk after()/tk after() eg 標籤循環.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/- Functions/tk after()/tk after() 帶參數讀秒器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/- Functions/tk after()/tk after().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/- Functions/tk var.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/- Functions/winfo &amp; 窗口居中.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/tk label/label config() &amp; destroy().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/tk label/tk label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Variables/強制類型轉換.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict double star.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arithmetic Operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comparison Operators (conflicted).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comparison Operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/If Statements (conflicted).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/If Statements.py" beforeDir="false" afterPath="$PROJECT_DIR$/If statement/If Statements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logical Operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Range.py" beforeDir="false" afterPath="$PROJECT_DIR$/Range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tkinter/- tk initialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter/- tk initialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tkinter/ls tk radio buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter/ls tk radio buttons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tkinter/tk label.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter/tk label/tk label eg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Variables/Variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/Input/input eg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpyxl/row col/row col.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpyxl/row col/row col iter_rows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print.py" beforeDir="false" afterPath="$PROJECT_DIR$/Print/print multi-line.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;knowpear&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/knowpear/pythonPYC.git&quot;,
+    &quot;accountId&quot;: &quot;5895bfae-6e2e-4849-aadc-f1c16cb55ccc&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/比較運算符.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2hPacF9MjPlkHR2bRlpcyR2JA6v" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.- initialize template.executor&quot;: &quot;Run&quot;,
+    &quot;Python.- tk initialization.executor&quot;: &quot;Run&quot;,
+    &quot;Python..format().executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.If Statements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda eg1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda with multi results.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.String.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.def &amp; dict &amp; list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.excel_add_imgs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.f-string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geometry().executor&quot;: &quot;Run&quot;,
+    &quot;Python.input eg advanced.executor&quot;: &quot;Run&quot;,
+    &quot;Python.input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.label config() &amp; destroy().executor&quot;: &quot;Run&quot;,
+    &quot;Python.label methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main window.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openpyxl basic2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print Escaped characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print end &amp; Escaped characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print multi-line.executor&quot;: &quot;Run&quot;,
+    &quot;Python.row col iter_rows.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk after() eg 標籤循環.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk after() eg2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk after() 帶參數讀秒器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk after().executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk label.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk var.executor&quot;: &quot;Run&quot;,
+    &quot;Python.winfo &amp; 窗口居中.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi asserts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi asserts2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi asserts3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.⏳窗口居中.executor&quot;: &quot;Run&quot;,
+    &quot;Python.三目运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.強制類型轉換.executor&quot;: &quot;Run&quot;,
+    &quot;Python.成員運算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.比較運算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.猜拳遊戲.executor&quot;: &quot;Run&quot;,
+    &quot;Python.算數運算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.赋值运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.身份运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.逻辑运算符.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;last_opened_file_path&quot;: &quot;G:/pCloud/python/pythonPYC/Tkinter/- Functions/tk after()&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\pCloud\python\pythonPYC\Tkinter\- Functions\tk after()" />
+      <recent name="G:\pCloud\python\pythonPYC\Practices\excel add imgs" />
+      <recent name="G:\pCloud\python\pythonPYC\Practices" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\pCloud\python\pythonPYC\Tkinter\- Functions" />
+      <recent name="G:\pCloud\python\pythonPYC\Tkinter\tk after()" />
+      <recent name="G:\pCloud\python\pythonPYC\Tkinter\tk label" />
+      <recent name="G:\pCloud\python\pythonPYC\Tkinter\geometry" />
+      <recent name="G:\pCloud\python\pythonPYC\Pillow" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="成員運算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonPYC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/運算符" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/運算符/成員運算符.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonPYC" />
       <option name="ENV_FILES" value="" />
@@ -56,11 +216,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="print basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonPYC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Print" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Print/print basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.成員運算符" />
+        <item itemvalue="Python.print basic" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -89,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717499216813</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2024-06-04">
+      <option name="closed" value="true" />
+      <created>1717510890789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717510890789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +300,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2024-06-04" />
     <option name="LAST_COMMIT_MESSAGE" value="2024-06-04" />
   </component>

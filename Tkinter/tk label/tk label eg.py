@@ -3,6 +3,7 @@ from tkinter import *
 root = Tk()
 
 var = IntVar()
+# 它是一个IntVar类型的对象。IntVar是Tkinter模块中的一个类，用于在图形用户界面中存储整数类型的变量。这个变量可以在界面的控件中显示和修改，通常与控件如Entry或Spinbox结合使用。
 var.set(20)
 
 def clicked(value):

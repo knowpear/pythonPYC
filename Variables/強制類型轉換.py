@@ -1,8 +1,3 @@
-age = 20
-score = 19.95
-is_online = True
-print("hello, world")
-print(age, score, is_online)
 
 # 屬於強制轉換類型
 x = str(5)      # x 現在是一個字符串 "5"
