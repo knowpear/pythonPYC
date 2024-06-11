@@ -23,6 +23,13 @@ label2= tk.Label(root, text="你好，Tkinter!",
                  relief="raised",
                  wraplength=100, # 可能是像素
                  justify=tk.LEFT)
+# text:
+    # 这是一个直接属性，允许你静态地设置Label上显示的文本内容
+# textvariable
+    # 这个属性用于将Label的文本与一个StringVar、IntVar或DoubleVar变量绑定。
+    # 当绑定的变量值发生变化时，Label上的文本会自动更新，无需手动调用配置方法。This is a read-only attribute that returns
+    # 🧪textvariable優先於text
+
 # justify
     # Specifies how multiple lines of text will be aligned with respect to each other:
     # LEFT for flush left, CENTER for centered (the default), or RIGHT for right-justified.
