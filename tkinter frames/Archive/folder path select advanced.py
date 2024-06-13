@@ -1,40 +1,39 @@
 import tkinter as tk
-from tkinter import filedialog
-from tkinter import messagebox
-
-def initialize_ui(root, text_var):
-    entry1 = tk.Entry(root, width=80, textvariable=text_var)
-    entry1.grid(row=0, column=0, padx=10, pady=10)
-
-    button_select = tk.Button(root, text="選擇路徑", command=lambda: button_select_click(text_var))
-    button_select.grid(row=0, column=1, padx=10)
-
-    button_save = tk.Button(root, text="儲存路徑", command=lambda: button_save_click(entry1, text_var))
-    button_save.grid(row=0, column=2, padx=10)
-
-    return entry1
+from tkinter import filedialog, messagebox
 
 def button_select_click(text_var):
     path = filedialog.askdirectory(initialdir=r"C:\Users\daiyi\Desktop",
                                    title="選擇路徑",
                                    mustexist=True)
-    if path:  # 如果路径不为空
-        text_var.set(path)
+    text_var.set(path)
 
-def button_save_click(entry, text_var):
-    saved_path = entry.get()
-    messagebox.showinfo("提示", f"路徑已儲存: {saved_path}")
+def initialize_ui(root):
+    input_entry_text_var = tk.StringVar(value="輸入或選擇導入路徑")
+    output_entry_text_var = tk.StringVar(value="輸入或選擇導出路徑")
+
+    input_entry = tk.Entry(root, width=80, textvariable=input_entry_text_var)
+    input_entry.grid(row=0, column=0)
+
+    input_select_button = tk.Button(root, text="選擇導入路徑", command=lambda: button_select_click(input_entry_text_var))
+    input_select_button.grid(row=0, column=1)
+
+    output_entry = tk.Entry(root, width=80, textvariable=output_entry_text_var)
+    output_entry.grid(row=8, column=0)
+
+    output_select_button = tk.Button(root, text="選擇導出路徑", command=lambda: button_select_click(output_entry_text_var))
+    output_select_button.grid(row=8, column=1)
+
+    return input_entry, output_entry
 
 def main():
     root = tk.Tk()
     root.title("Path Selector")
-    root.geometry("800x400+400+200")
+    root.geometry("600x200+400+200")
 
-    text_var = tk.StringVar(value="在此輸入或選擇路徑")
-
-    initialize_ui(root, text_var)
+    input_entry, output_entry = initialize_ui(root)
 
     root.mainloop()
 
 if __name__ == "__main__":
+
     main()

@@ -35,6 +35,8 @@ root.title("Tkinter StringVar 示例")
 # 创建一个StringVar变量
 text_var = tk.StringVar()
 text_var.set("我是一个字符串变量。")
+    # 🔄️寫法
+    # text_var = tk.StringVar(value="我是一个字符串变量。")
 
 # 创建一个标签，其文本由StringVar控制
 label = tk.Label(root, textvariable=text_var)

@@ -4,48 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-11.2">
-      <change afterPath="$PROJECT_DIR$/tkinter frames/Archive/folder path select advanced.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter frames/folder path select.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/- Functions/- tk common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tk filedialog/tk askdirectory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tk filedialog/tk askfilename.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tk filedialog/tk filedialog command lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tk filedialog/tk filedialog eg open text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tk var/var advanced.py" afterDir="false" />
+    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-11.3">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter samples/basic window.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter frames/basic window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/- Functions/geometry().py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/- Functions/geometry().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/- Functions/tk after()/tk after() eg 標籤循環.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/- Functions/tk after()/tk after() eg 標籤循環.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/- Functions/tk after()/tk after() 帶參數讀秒器.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/- Functions/tk after()/tk after() 帶參數讀秒器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/- Functions/tk after()/tk after().py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/- Functions/tk after()/tk after().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/- Functions/tk var.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/- Functions/tk var.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/- Functions/winfo &amp; 窗口居中.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/- Functions/winfo &amp; 窗口居中.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/- tk initialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/- tk initialization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/ls tk radio buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/ls tk radio buttons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk button/tk button command.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk button/tk button command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk button/tk button eg 標籤計數+1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk button/tk button eg 標籤計數+1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk button/tk button.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk button/tk button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk check box advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk check box advanced.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk check box.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk check box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk files dialog box/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk filedialog/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk files dialog box/tk files dialog box advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk filedialog/tk filedialog advanced.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk files dialog box/tk files dialog box.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk filedialog/tk filedialog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk frames.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk frames.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk grid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk input/tk Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk input/tk Entry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk label/label config() &amp; destroy().py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk label/label config() &amp; destroy().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk label/tk label eg.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk label/tk label eg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk label/tk label.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk label/tk label.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk message box.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk message box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk new window.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk new window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk text/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk text/sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk text/tk text 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk text/tk text 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk text/tk text 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk text/tk text 3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk text/tk text.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk text/tk text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/tk var.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk var/tk var.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/import module/import module.py" beforeDir="false" afterPath="$PROJECT_DIR$/import module/import module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter frames/Archive/folder path select advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter frames/Archive/folder path select advanced.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter frames/folder path select.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter frames/folder path select.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/tk var/tk var.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk var/tk var.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +88,7 @@
     "Python.input.executor": "Run",
     "Python.label config() & destroy().executor": "Run",
     "Python.label methods.executor": "Run",
+    "Python.main basic.executor": "Run",
     "Python.main window.executor": "Run",
     "Python.main.executor": "Run",
     "Python.openpyxl basic2.executor": "Run",
@@ -171,8 +138,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "G:/pCloud/python/pythonPYC/tkinter frames",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "last_opened_file_path": "G:/pCloud/python/pythonPYC",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -184,14 +151,14 @@
       <recent name="G:\pCloud\python\pythonPYC\Practices" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\pCloud\python\pythonPYC\main" />
       <recent name="G:\pCloud\python\pythonPYC\tkinter frames\Archive" />
       <recent name="G:\pCloud\python\pythonPYC\tkinter\tk var" />
       <recent name="G:\pCloud\python\pythonPYC\tkinter" />
       <recent name="G:\pCloud\python\pythonPYC" />
-      <recent name="G:\pCloud\python\pythonPYC\Tkinter\tk input" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="成員運算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonPYC" />
       <option name="ENV_FILES" value="" />
@@ -214,6 +181,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonPYC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/main basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonPYC" />
       <option name="ENV_FILES" value="" />
@@ -227,7 +216,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="G:\pCloud\python\pythonPYC\main\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,6 +249,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main basic" />
         <item itemvalue="Python.成員運算符" />
         <item itemvalue="Python.print basic" />
       </list>
@@ -313,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718096576850</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2024-06-11.3">
+      <option name="closed" value="true" />
+      <created>1718120529769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718120529769</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +329,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2024-06-04" />
     <MESSAGE value="2024-06-11.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-06-11.2" />
+    <MESSAGE value="2024-06-11.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-06-11.3" />
   </component>
 </project>
