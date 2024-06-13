@@ -4,14 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-11.3">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-13">
+      <change afterPath="$PROJECT_DIR$/- Frames/os_iterate_folder_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Practices/GUI iterate folder files/GUI iterate folder files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/- os.initialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer root.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer1/Layer1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer2/Layer2-1/Layer2-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer2/Layer2-2/Layer2-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer2/Layer2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-1/Layer3-1-1/Layer3-1-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-1/Layer3-1-2/Layer3-1-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-1/Layer3-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-2/Layer3-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-2/Layer3-2複本.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/iterate_folder_files_recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/os.listdir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/os.path.join.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/os.walk.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter frames/Archive/folder path select advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter frames/Archive/folder path select advanced.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter frames/folder path select.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter frames/folder path select.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tk var/tk var.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk var/tk var.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/0620圖片原樣 調整cell大小.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/0620圖片原樣 調整cell大小.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/excel_add_imgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/excel_add_imgs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/imgFolder/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/imgFolder/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/imgFolder/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/imgFolder/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/myExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/myExcel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/myExcel_Output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/myExcel_Output.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/yiqi0620原樣插入.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/yiqi0620原樣插入.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/圖片調整.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/圖片調整.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter frames/Archive/folder path select advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/Archive/tkinter_folder path select advanced.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter frames/basic window.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/tkinter_basic window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter frames/folder path select.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +89,7 @@
     "Python.0620圖片原樣 調整cell大小.executor": "Run",
     "Python.0620直接修改excel.executor": "Run",
     "Python.Dict.executor": "Run",
+    "Python.GUI iterate folder files.executor": "Run",
     "Python.If Statements.executor": "Run",
     "Python.Lambda eg1.executor": "Run",
     "Python.Lambda practice.executor": "Run",
@@ -86,12 +110,17 @@
     "Python.import module.executor": "Run",
     "Python.input eg advanced.executor": "Run",
     "Python.input.executor": "Run",
+    "Python.iterate_folder_files.executor": "Run",
     "Python.label config() & destroy().executor": "Run",
     "Python.label methods.executor": "Run",
+    "Python.listdir.executor": "Run",
     "Python.main basic.executor": "Run",
     "Python.main window.executor": "Run",
     "Python.main.executor": "Run",
     "Python.openpyxl basic2.executor": "Run",
+    "Python.os.listdir.executor": "Run",
+    "Python.os.path.join.executor": "Run",
+    "Python.os.walk.executor": "Run",
     "Python.path selector.executor": "Run",
     "Python.print Escaped characters.executor": "Run",
     "Python.print basic.executor": "Run",
@@ -135,6 +164,9 @@
     "Python.赋值运算符.executor": "Run",
     "Python.身份运算符.executor": "Run",
     "Python.逻辑运算符.executor": "Run",
+    "Python.遍歷文件 遞歸.executor": "Run",
+    "Python.遍歷文件.executor": "Run",
+    "Python.遍歷文件夾內所有文件.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -151,58 +183,14 @@
       <recent name="G:\pCloud\python\pythonPYC\Practices" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\pCloud\python\pythonPYC\tkinter frames" />
+      <recent name="G:\pCloud\python\pythonPYC\Path" />
       <recent name="G:\pCloud\python\pythonPYC\main" />
       <recent name="G:\pCloud\python\pythonPYC\tkinter frames\Archive" />
       <recent name="G:\pCloud\python\pythonPYC\tkinter\tk var" />
-      <recent name="G:\pCloud\python\pythonPYC\tkinter" />
-      <recent name="G:\pCloud\python\pythonPYC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="成員運算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonPYC" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/運算符" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/運算符/成員運算符.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonPYC" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/main basic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonPYC" />
       <option name="ENV_FILES" value="" />
@@ -225,35 +213,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="print basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonPYC" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Print" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Print/print basic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.print basic" />
-        <item itemvalue="Python.main basic" />
-        <item itemvalue="Python.成員運算符" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -311,7 +270,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718120529769</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2024-06-13">
+      <option name="closed" value="true" />
+      <created>1718237735524</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718237735524</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2024-06-13">
+      <option name="closed" value="true" />
+      <created>1718237867527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718237867527</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2024-06-13">
+      <option name="closed" value="true" />
+      <created>1718237969972</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718237969972</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +313,7 @@
     <MESSAGE value="2024-06-04" />
     <MESSAGE value="2024-06-11.2" />
     <MESSAGE value="2024-06-11.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-06-11.3" />
+    <MESSAGE value="2024-06-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-06-13" />
   </component>
 </project>
