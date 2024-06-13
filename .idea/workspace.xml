@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-13">
-      <change afterPath="$PROJECT_DIR$/- Frames/os_iterate_folder_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/- Practices/GUI iterate folder files/GUI iterate folder files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/- os.initialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer root.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer1/Layer1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer2/Layer2-1/Layer2-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer2/Layer2-2/Layer2-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer2/Layer2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-1/Layer3-1-1/Layer3-1-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-1/Layer3-1-2/Layer3-1-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-1/Layer3-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-2/Layer3-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3-2/Layer3-2複本.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/Layer3/Layer3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/iterate_folder_files_recursive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/os.listdir.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/os.path.join.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/os.walk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/- Practices/GUI iterate folder files/GUI iterate folder files.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/GUI iterate folder files/GUI iterate folder files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/0620圖片原樣 調整cell大小.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/0620圖片原樣 調整cell大小.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/excel_add_imgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/excel_add_imgs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/imgFolder/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/imgFolder/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/imgFolder/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/imgFolder/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/myExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/myExcel.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/myExcel_Output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/myExcel_Output.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/yiqi0620原樣插入.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/yiqi0620原樣插入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/excel add imgs/圖片調整.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/excel add imgs/圖片調整.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter frames/Archive/folder path select advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/Archive/tkinter_folder path select advanced.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter frames/basic window.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/tkinter_basic window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter frames/folder path select.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718237969972</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2024-06-13">
+      <option name="closed" value="true" />
+      <created>1718291005307</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718291005307</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

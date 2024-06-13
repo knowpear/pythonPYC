@@ -3,6 +3,8 @@ from tkinter import filedialog
 from tkinter import messagebox
 # 🐾思路是把操作都設置成var, 用的時候再讀取var
 import os
+from PIL import Image
+from pathlib import Path
 
 root = tk.Tk()
 root.title("Path Selector")
@@ -55,16 +57,29 @@ def get_paths():
     # path_root = input_entry_text_var.get() # AI寫法
     # 定義輸出路徑 = 輸出框路徑 = 要導出的路徑
     output_path = output_entry.get() # 🐾寫法
-    output_path = output_entry_text_var.get() # AI寫法
+    # output_path = output_entry_text_var.get() # AI寫法
     return path_root, output_path
 
-def iterate_folder_files(path_root):
+def resize_image(image_path, output_image_path):
+    # 目标尺寸
+    width, height = 600, 600  # 举例，您可以根据需要设置
+    with Image.open(image_path) as img:
+        # 调整图片尺寸
+        resized_img = img.resize((width, height), Image.LANCZOS)
+        # 保存调整尺寸后的图片
+        resized_img.save(output_image_path, optimize=True,
+                         quality=85)  # optimize=True, quality=85是從網上抄得的, 不知道有沒有用
+        print(f"图片 {image_path} 处理成功")
+
+def iterate_folder_files(path_root, output_path):
     for root, dirs, files in os.walk(path_root):
         for file in files:
-            print(os.path.join(root, file))
+            input_file_path = os.path.join(root, file)
+            output_file_path = os.path.join(output_path, file)
+            resize_image(input_file_path, output_file_path)
 
 # 執行按鈕
-excute_button = tk.Button(root, text="執行", command=lambda: iterate_folder_files(get_paths()[0]))
+excute_button = tk.Button(root, text="執行", command=lambda: iterate_folder_files(*get_paths()))
     # 只需導入路徑, 所以只取第一[0]個返回值, 即path_root
 excute_button.grid(row=10, column=0)
 
