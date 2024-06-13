@@ -75,12 +75,12 @@ def iterate_folder_files(path_root, output_path):
     for root, dirs, files in os.walk(path_root):
         for file in files:
             input_file_path = os.path.join(root, file)
+            # input_file_path = os.path.join(path_root, file) # ❌🧪若無子目錄, 則平安無事, 若有, 則選定目錄不符合於os.walk遍歷的所有子目錄規則, 找不到會報錯
             output_file_path = os.path.join(output_path, file)
             resize_image(input_file_path, output_file_path)
 
 # 執行按鈕
 excute_button = tk.Button(root, text="執行", command=lambda: iterate_folder_files(*get_paths()))
-    # 只需導入路徑, 所以只取第一[0]個返回值, 即path_root
 excute_button.grid(row=10, column=0)
 
 root.mainloop()
