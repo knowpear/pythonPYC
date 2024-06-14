@@ -2,12 +2,9 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
 # 🐾思路是把操作都設置成var, 用的時候再讀取var
-import os
-from PIL import Image
-from pathlib import Path
 
 root = tk.Tk()
-root.title("Path Selector")
+root.title("tkinter_folder path select")
 root.geometry("600x200")
 root.geometry("+400+200")
 
@@ -44,43 +41,26 @@ def initialize_ui(root):
     output_select_button = tk.Button(root, text="選擇導出路徑", command=lambda: button_select_click(output_entry_text_var))
     output_select_button.grid(row=8, column=1)
 
+    # 執行按鈕
+    excute_button = tk.Button(root, text="執行", command=lambda: excute_program(*get_paths()))
+    # excute_button = tk.Button(root, text="執行", command=lambda: excute_program(get_paths()[0], get_paths()[1])) # 等價
+    excute_button.grid(row=10, column=0)
+
     return input_entry, output_entry
 
 input_entry, output_entry = initialize_ui(root)
 # initialize_ui 函数返回 輸入輸出兩個entry 对象，我们将它赋值给input_entry, output_entry变量。🐾可異名接收, 實例化?
 # 现在，entry1 是在 root 代码块级别定义的，所以在 root.mainloop() 之前的任何地方都可以访问它。
+# 🐾這裏是中介?
 
-# 获取路径的函数应该在需要时调用，而不是直接在这里赋值
-def get_paths():
-    # 定義輸入路徑 = 輸入框路徑 = 要遍歷的路徑
-    input_path = input_entry.get() # 🐾寫法
-    # input_path = input_entry_text_var.get() # AI寫法
-    # 定義輸出路徑 = 輸出框路徑 = 要導出的路徑
-    output_path = output_entry.get() # 🐾寫法
-    # output_path = output_entry_text_var.get() # AI寫法
+# 需要時即時調用
+def get_paths(): # Redundancy
+    input_path = input_entry.get()
+    output_path = output_entry.get()
     return input_path, output_path
 
-def resize_image(image_path, output_image_path):
-    # 目标尺寸
-    width, height = 600, 600  # 举例，您可以根据需要设置
-    with Image.open(image_path) as img:
-        # 调整图片尺寸
-        resized_img = img.resize((width, height), Image.LANCZOS)
-        # 保存调整尺寸后的图片
-        resized_img.save(output_image_path, optimize=True,
-                         quality=85)  # optimize=True, quality=85是從網上抄得的, 不知道有沒有用
-        print(f"图片 {image_path} 处理成功")
-
-def iterate_folder_files(input_path, output_path):
-    for root, dirs, files in os.walk(input_path):
-        for file in files:
-            input_file_path = os.path.join(root, file)
-            # input_file_path = os.path.join(path_root, file) # ❌🧪若無子目錄, 則平安無事, 若有, 則選定目錄不符合於os.walk遍歷的所有子目錄規則, 找不到會報錯
-            output_file_path = os.path.join(output_path, file)
-            resize_image(input_file_path, output_file_path)
-
-# 執行按鈕
-excute_button = tk.Button(root, text="執行", command=lambda: iterate_folder_files(*get_paths()))
-excute_button.grid(row=10, column=0)
+def excute_program(input_path, output_path):
+    print("正在執行...")
+    print(f"導入路徑: {input_path}, 導出路徑: {output_path}")
 
 root.mainloop()

@@ -13,17 +13,17 @@ import tkinter as tk
 
 root = tk.Tk()
 
-e = tk.Entry(root, width= 50, bg= "blue", fg= "white", borderwidth=5)
+entry1 = tk.Entry(root, width= 50, bg="blue", fg="white", borderwidth=5)
 # 預設文本
-e.insert(0, "Enter your name:")
+entry1.insert(0, "Enter your name:")
 # e.insert(6, "abc") # 第一个参数是插入文本的位置
-e.pack()
+entry1.pack()
 
 def myClick():
-    e.delete(0,5)
-    myLabel = tk.Label(root, text = e.get())
+    entry1.delete(0, 1)
+    myLabel = tk.Label(root, text = entry1.get())
     myLabel.pack()
-myButton = tk.Button(root, text = "Click me!", command= myClick, fg = "blue", bg= "grey")
+myButton = tk.Button(root, text = "Click me!", fg = "blue", bg= "grey", command= myClick)
 myButton.pack()
 
 root.mainloop()
