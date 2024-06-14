@@ -89,8 +89,6 @@ def touch_file(path):
     except Exception as e:
         print(f"无法创建文件 {path}：{e}")
 
-# ⏳拼接路徑字串創建
-
 def main():
     # 🔢 Path() 路徑字串創建
         # 使用对象来表示路径，允许链式调用方法，这让代码更加直观和易于理解。

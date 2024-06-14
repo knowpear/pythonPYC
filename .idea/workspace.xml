@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-13">
-      <change afterPath="$PROJECT_DIR$/Path/- pathlib topic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/- pathlib topic_1718356799701.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/pathlib file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/Layer root/pathlib new_file.txt" afterDir="false" />
+    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-14">
+      <change afterPath="$PROJECT_DIR$/Path/pathlib glob().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/pathlib iterdir().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path/pathlib join path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Path/- pathlib initialization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Path/Layer root/Layer root.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Path/Layer root/Layer root.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Path/- os.initialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Path/os.initialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Path/- pathlib basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Path/pathlib basic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +111,11 @@
     "Python.os.path.join.executor": "Run",
     "Python.os.walk.executor": "Run",
     "Python.path selector.executor": "Run",
+    "Python.pathlib glob().executor": "Run",
+    "Python.pathlib iterate folder.executor": "Run",
+    "Python.pathlib iterdir() recursive.executor": "Run",
+    "Python.pathlib iterdir().executor": "Run",
+    "Python.pathlib path join.executor": "Run",
     "Python.print Escaped characters.executor": "Run",
     "Python.print basic.executor": "Run",
     "Python.print end & Escaped characters.executor": "Run",
@@ -164,17 +168,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "G:/pCloud/python/pythonPYC/- Frames",
+    "last_opened_file_path": "G:/pCloud/python/pythonPYC/Path",
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\pCloud\python\pythonPYC\Path" />
       <recent name="G:\pCloud\python\pythonPYC\- Frames" />
       <recent name="G:\pCloud\python\pythonPYC\tkinter frames" />
       <recent name="G:\pCloud\python\pythonPYC\Tkinter\tk button" />
       <recent name="G:\pCloud\python\pythonPYC\Practices\excel add imgs" />
-      <recent name="G:\pCloud\python\pythonPYC\Tkinter\- Functions\tk after()" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\pCloud\python\pythonPYC\Path\Layer root" />
@@ -344,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718350084248</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2024-06-14">
+      <option name="closed" value="true" />
+      <created>1718359018809</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718359018809</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,6 +388,7 @@
     <MESSAGE value="2024-06-11.2" />
     <MESSAGE value="2024-06-11.3" />
     <MESSAGE value="2024-06-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-06-13" />
+    <MESSAGE value="2024-06-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-06-14" />
   </component>
 </project>
