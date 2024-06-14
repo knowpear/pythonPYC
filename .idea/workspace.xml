@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-13">
-      <change afterPath="$PROJECT_DIR$/- Frames/Archive/tkinter_folder path select有些冗餘.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/- pathlib initialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tk entry/tk entry var.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/- Frames/Archive/tkinter_folder path select advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/Archive/tkinter_folder path select def main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/- Practices/GUI iterate folder files/GUI iterate folder files.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Practices/GUI iterate folder files/GUI iterate folder files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tk input/tk Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tk entry/tk entry.py" afterDir="false" />
-    </list>
+    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-13" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -314,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718294242253</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2024-06-13">
+      <option name="closed" value="true" />
+      <created>1718332679268</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718332679268</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
