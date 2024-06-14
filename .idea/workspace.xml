@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-13" />
+    <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-13">
+      <change afterPath="$PROJECT_DIR$/- Frames/Archive/tkinter_basic window_靈碼大神寫法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/- Frames/os_iterate_folder_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/os_iterate_folder_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +21,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -55,104 +63,104 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.- initialize template.executor": "Run",
-    "Python.- tk initialization.executor": "Run",
-    "Python..format().executor": "Run",
-    "Python.0620圖片原樣 調整cell大小.executor": "Run",
-    "Python.0620直接修改excel.executor": "Run",
-    "Python.Dict.executor": "Run",
-    "Python.GUI iterate folder files.executor": "Run",
-    "Python.If Statements.executor": "Run",
-    "Python.Lambda eg1.executor": "Run",
-    "Python.Lambda practice.executor": "Run",
-    "Python.Lambda with multi results.executor": "Run",
-    "Python.Lambda.executor": "Run",
-    "Python.Range.executor": "Run",
-    "Python.String.executor": "Run",
-    "Python.Variables.executor": "Run",
-    "Python.basic window.executor": "Run",
-    "Python.def & dict & list.executor": "Run",
-    "Python.excel_add_imgs.executor": "Run",
-    "Python.f-string.executor": "Run",
-    "Python.folder path select advanced.executor": "Run",
-    "Python.folder path select.executor": "Run",
-    "Python.folder path selector.executor": "Run",
-    "Python.geometry().executor": "Run",
-    "Python.global variable.executor": "Run",
-    "Python.import module.executor": "Run",
-    "Python.input eg advanced.executor": "Run",
-    "Python.input.executor": "Run",
-    "Python.iterate_folder_files.executor": "Run",
-    "Python.label config() & destroy().executor": "Run",
-    "Python.label methods.executor": "Run",
-    "Python.listdir.executor": "Run",
-    "Python.main basic.executor": "Run",
-    "Python.main window.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.openpyxl basic2.executor": "Run",
-    "Python.os.listdir.executor": "Run",
-    "Python.os.path.join.executor": "Run",
-    "Python.os.walk.executor": "Run",
-    "Python.path selector.executor": "Run",
-    "Python.print Escaped characters.executor": "Run",
-    "Python.print basic.executor": "Run",
-    "Python.print end & Escaped characters.executor": "Run",
-    "Python.print multi-line.executor": "Run",
-    "Python.row col iter_rows.executor": "Run",
-    "Python.tk Entry.executor": "Run",
-    "Python.tk after() eg 標籤循環.executor": "Run",
-    "Python.tk after() eg2.executor": "Run",
-    "Python.tk after() 帶參數讀秒器.executor": "Run",
-    "Python.tk after().executor": "Run",
-    "Python.tk askdirectory.executor": "Run",
-    "Python.tk askfilename.executor": "Run",
-    "Python.tk button command we.executor": "Run",
-    "Python.tk button command.executor": "Run",
-    "Python.tk button eg 標籤計數+1.executor": "Run",
-    "Python.tk button.executor": "Run",
-    "Python.tk entry var.executor": "Run",
-    "Python.tk entry.executor": "Run",
-    "Python.tk filedialog command lambda.executor": "Run",
-    "Python.tk filedialog eg open text.executor": "Run",
-    "Python.tk filedialog.executor": "Run",
-    "Python.tk files dialog box.executor": "Run",
-    "Python.tk input.executor": "Run",
-    "Python.tk label eg.executor": "Run",
-    "Python.tk label.executor": "Run",
-    "Python.tk var.executor": "Run",
-    "Python.tkinter_basic window.executor": "Run",
-    "Python.tkinter_folder path select.executor": "Run",
-    "Python.winfo & 窗口居中.executor": "Run",
-    "Python.yiqi asserts 實戰.executor": "Run",
-    "Python.yiqi asserts.executor": "Run",
-    "Python.yiqi asserts2.executor": "Run",
-    "Python.yiqi asserts3.executor": "Run",
-    "Python.yiqi0620.executor": "Run",
-    "Python.yiqi0620resize.executor": "Run",
-    "Python.⏳窗口居中.executor": "Run",
-    "Python.三目运算符.executor": "Run",
-    "Python.圖片調整.executor": "Run",
-    "Python.強制類型轉換.executor": "Run",
-    "Python.成員運算符.executor": "Run",
-    "Python.比較運算符.executor": "Run",
-    "Python.猜拳遊戲.executor": "Run",
-    "Python.算數運算符.executor": "Run",
-    "Python.赋值运算符.executor": "Run",
-    "Python.身份运算符.executor": "Run",
-    "Python.逻辑运算符.executor": "Run",
-    "Python.遍歷文件 遞歸.executor": "Run",
-    "Python.遍歷文件.executor": "Run",
-    "Python.遍歷文件夾內所有文件.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "G:/pCloud/python/pythonPYC/- Frames",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.- initialize template.executor&quot;: &quot;Run&quot;,
+    &quot;Python.- tk initialization.executor&quot;: &quot;Run&quot;,
+    &quot;Python..format().executor&quot;: &quot;Run&quot;,
+    &quot;Python.0620圖片原樣 調整cell大小.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0620直接修改excel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GUI iterate folder files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.If Statements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda eg1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda with multi results.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.String.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.def &amp; dict &amp; list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.excel_add_imgs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.f-string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.folder path select advanced.executor&quot;: &quot;Run&quot;,
+    &quot;Python.folder path select.executor&quot;: &quot;Run&quot;,
+    &quot;Python.folder path selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geometry().executor&quot;: &quot;Run&quot;,
+    &quot;Python.global variable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.import module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.input eg advanced.executor&quot;: &quot;Run&quot;,
+    &quot;Python.input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterate_folder_files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.label config() &amp; destroy().executor&quot;: &quot;Run&quot;,
+    &quot;Python.label methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listdir.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openpyxl basic2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.os.listdir.executor&quot;: &quot;Run&quot;,
+    &quot;Python.os.path.join.executor&quot;: &quot;Run&quot;,
+    &quot;Python.os.walk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.path selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print Escaped characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print end &amp; Escaped characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print multi-line.executor&quot;: &quot;Run&quot;,
+    &quot;Python.row col iter_rows.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk Entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk after() eg 標籤循環.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk after() eg2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk after() 帶參數讀秒器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk after().executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk askdirectory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk askfilename.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk button command we.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk button command.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk button eg 標籤計數+1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk entry var.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk filedialog command lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk filedialog eg open text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk filedialog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk files dialog box.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk label eg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk label.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk var.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tkinter_basic window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tkinter_folder path select.executor&quot;: &quot;Run&quot;,
+    &quot;Python.winfo &amp; 窗口居中.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi asserts 實戰.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi asserts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi asserts2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi asserts3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi0620.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yiqi0620resize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.⏳窗口居中.executor&quot;: &quot;Run&quot;,
+    &quot;Python.三目运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.圖片調整.executor&quot;: &quot;Run&quot;,
+    &quot;Python.強制類型轉換.executor&quot;: &quot;Run&quot;,
+    &quot;Python.成員運算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.比較運算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.猜拳遊戲.executor&quot;: &quot;Run&quot;,
+    &quot;Python.算數運算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.赋值运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.身份运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.逻辑运算符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.遍歷文件 遞歸.executor&quot;: &quot;Run&quot;,
+    &quot;Python.遍歷文件.executor&quot;: &quot;Run&quot;,
+    &quot;Python.遍歷文件夾內所有文件.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/pCloud/python/pythonPYC/- Frames&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\pCloud\python\pythonPYC\- Frames" />
@@ -313,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718332679268</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2024-06-13">
+      <option name="closed" value="true" />
+      <created>1718332968609</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718332968609</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

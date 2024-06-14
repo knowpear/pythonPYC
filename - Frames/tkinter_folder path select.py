@@ -16,7 +16,7 @@ input_entry_text_var.set("輸入或選擇導入路徑")
 output_entry_text_var = tk.StringVar()
 output_entry_text_var.set("輸入或選擇導出路徑")
 
-# 共用點擊事件
+# 共用點擊事件傳參改參→ 設置文本框
 def button_select_click(text_var):
     # text_var是形參, 傳入哪個entry的var, 就更改哪個entry框內的值
     path = filedialog.askdirectory(initialdir=r"C:\Users\daiyi\Desktop",
@@ -24,6 +24,7 @@ def button_select_click(text_var):
                             mustexist=True)
     text_var.set(path)
 
+# 執行程序→ 參數即時獲取即可
 def excute_program():
     # input_path = input_entry.get()
     # output_path = output_entry.get()
@@ -33,6 +34,7 @@ def excute_program():
     print("正在執行...")
     print(f"導入路徑: {input_path}, 導出路徑: {output_path}")
 
+# 初始化UI
 def initialize_ui(root):
     # 導入路徑框
     input_entry = tk.Entry(root, width=80, textvariable=input_entry_text_var)
@@ -60,6 +62,5 @@ def initialize_ui(root):
 input_entry, output_entry = initialize_ui(root)
 # initialize_ui 函数返回 輸入輸出兩個entry 对象，我们将它赋值给input_entry, output_entry变量。🐾可異名接收, 實例化?
 # 现在，entry1 是在 root 代码块级别定义的，所以在 root.mainloop() 之前的任何地方都可以访问它。
-# 🐾這裏是中介?
 
 root.mainloop()
