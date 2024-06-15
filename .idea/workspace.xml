@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb255692-20a6-4e0f-b733-83d66fdfbe96" name="Changes" comment="2024-06-14">
-      <change afterPath="$PROJECT_DIR$/- Frames/iterate folder files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Path/pathlib suffix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/- Frames/os_iterate_folder_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Path/os.walk eg iterate_folder_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer root.txt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer1/Layer1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer2/Layer2-1/Layer2-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer2/Layer2-2/Layer2-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer2/Layer2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer3/Layer3-1/Layer3-1-1/Layer3-1-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer3/Layer3-1/Layer3-1-2/Layer3-1-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer3/Layer3-1/Layer3-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer3/Layer3-2/Layer3-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer3/Layer3-2/Layer3-2複本.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/Layer3/Layer3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/pathlib file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/Layer root/pathlib new_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/imgFolder/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/- Samples/imgFolder/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/GUI folder path select &amp; iterate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/- Frames/pil resize image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/- Frames/iterate folder files.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/iterate folder files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/- Frames/tkinter_basic window.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/GUI basic window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/- Frames/tkinter_folder path select.py" beforeDir="false" afterPath="$PROJECT_DIR$/- Frames/GUI folder path select.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Path/Layer root/Layer root.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Path/Layer root/Layer root.txt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Path/iterate_folder_files_recursive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Path/os.listdir eg iterate_folder_files_recursive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Path/pathlib glob().py" beforeDir="false" afterPath="$PROJECT_DIR$/Path/pathlib glob().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Path/pathlib join path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Path/pathlib joinpath.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +156,7 @@
     "Python.tk label.executor": "Run",
     "Python.tk var.executor": "Run",
     "Python.tkinter_basic window.executor": "Run",
+    "Python.tkinter_folder path select & iterate.executor": "Run",
     "Python.tkinter_folder path select.executor": "Run",
     "Python.winfo & 窗口居中.executor": "Run",
     "Python.yiqi asserts 實戰.executor": "Run",
@@ -169,24 +182,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "G:/pCloud/python/pythonPYC/Path",
+    "last_opened_file_path": "G:/pCloud/python/pythonPYC/- Frames",
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\pCloud\python\pythonPYC\Path" />
       <recent name="G:\pCloud\python\pythonPYC\- Frames" />
+      <recent name="G:\pCloud\python\pythonPYC\Path" />
       <recent name="G:\pCloud\python\pythonPYC\tkinter frames" />
       <recent name="G:\pCloud\python\pythonPYC\Tkinter\tk button" />
       <recent name="G:\pCloud\python\pythonPYC\Practices\excel add imgs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\pCloud\python\pythonPYC\- Frames" />
+      <recent name="G:\pCloud\python\pythonPYC\- Practices" />
       <recent name="G:\pCloud\python\pythonPYC\Path" />
       <recent name="G:\pCloud\python\pythonPYC\Path\Layer root" />
       <recent name="G:\pCloud\python\pythonPYC\- Frames\Archive" />
-      <recent name="G:\pCloud\python\pythonPYC\tkinter frames" />
-      <recent name="G:\pCloud\python\pythonPYC\main" />
     </key>
   </component>
   <component name="RunManager">
@@ -373,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718380307299</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2024-06-14">
+      <option name="closed" value="true" />
+      <created>1718443858280</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718443858280</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
