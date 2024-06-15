@@ -3,6 +3,8 @@ from tkinter import filedialog
 from tkinter import messagebox
 # 🐾思路是把操作都設置成var, 用的時候再讀取var
 from pathlib import Path
+from PIL import Image
+import os
 
 root = tk.Tk()
 root.title("tkinter_folder path select")
@@ -20,9 +22,10 @@ output_entry_text_var.set("輸入或選擇導出路徑")
 # 共用點擊事件傳參改參→ 設置文本框
 def button_select_click(text_var):
     # text_var是形參, 傳入哪個entry的var, 就更改哪個entry框內的值
-    path = filedialog.askdirectory(initialdir=r"C:\Users\daiyi\Desktop",
-                                   title="選擇路徑",
-                                   mustexist=True)
+    desktop_path = Path.home() / "Desktop"
+    path = filedialog.askdirectory(initialdir=desktop_path,
+                            title="選擇路徑",
+                            mustexist=True)
     text_var.set(path)
 
 # 執行程序→ 參數即時獲取即可
@@ -38,9 +41,36 @@ def get_current_path():
 def iterate_folder_files1(input_path_root, output_path_root):
     for file in input_path_root.glob('*'):
         if file.is_file():
-            print(file)
-            # print(file.name)
-            print('iterate_folder_files1 execute')
+            # ⭐構建輸入和輸出路徑範例
+            # 以输入文件为基准，确定输出文件的路径和名称
+            input_file = file
+            # 拼接构建输出文件的完整路径和文件名
+            output_file = output_path_root / file.name
+            # 调用图像缩放函数，处理输入文件并保存到指定的输出文件
+            resize_image(2, input_file, output_file)
+
+def resize_image(scale, input_image_file, output_image_file):
+    """
+    参数:
+    input_file: Path对象，表示输入的图片文件路径。
+    output_file: Path对象，表示输出的图片文件路径。
+    """
+    # 比例
+    scale_factor = scale
+    try:
+        with Image.open(input_image_file) as image:
+            # 原尺寸
+            width = image.width
+            height = image.height
+
+            # 缩放图片到指定大小
+            resized_img = image.resize((round(width*scale_factor), round(height*scale_factor)), resample= Image.LANCZOS)
+            # 保存缩放后的图片
+            resized_img.save(output_image_file, optimize=True, quality=85)
+            # 打印图片缩放完成的消息
+            print(f'{input_image_file} resized')
+    except Exception as e:
+        print(f"处理图片 {input_image_file.name} 时出现错误: {e}")
 
 # 初始化UI
 def initialize_ui(root):

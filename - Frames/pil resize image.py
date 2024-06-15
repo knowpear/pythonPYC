@@ -23,7 +23,7 @@ def iterate_folder_files1(input_path_root, output_path_root):
             # 拼接构建输出文件的完整路径和文件名
             output_file = output_path_root / file.name
             # 调用图像缩放函数，处理输入文件并保存到指定的输出文件
-            resize_image(2, input_file, output_file)
+            resize_image(2, input_file, output_file)  # 🐾resize就是resize, 只管到手的file, 不管輸入輸出路徑, 各司其職, 嚴守边界
 
 # resize, 既轉換, 又保存
 def resize_image(scale, input_file, output_file):

@@ -3,6 +3,7 @@ from tkinter import filedialog
 from tkinter import messagebox
 # 🐾思路是把操作都設置成var, 用的時候再讀取var
 from pathlib import Path
+import os
 
 root = tk.Tk()
 root.title("tkinter_folder path select")
@@ -20,9 +21,13 @@ output_entry_text_var.set("輸入或選擇導出路徑")
 # 共用點擊事件傳參改參→ 設置文本框
 def button_select_click(text_var):
     # text_var是形參, 傳入哪個entry的var, 就更改哪個entry框內的值
-    path = filedialog.askdirectory(initialdir=r"C:\Users\daiyi\Desktop",
+    desktop_path = Path.home() / "Desktop"
+    path = filedialog.askdirectory(initialdir=desktop_path,
                             title="選擇路徑",
                             mustexist=True)
+    # path = filedialog.askdirectory(initialdir=os.path.expanduser('~/Desktop'),
+    #                         title="選擇路徑",
+    #                         mustexist=True)
     text_var.set(path)
 
 # 執行程序→ 參數即時獲取即可
