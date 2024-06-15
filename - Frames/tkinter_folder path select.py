@@ -25,7 +25,7 @@ def button_select_click(text_var):
     text_var.set(path)
 
 # 執行程序→ 參數即時獲取即可
-def excute_program():
+def excute_my_program():
     # input_path = input_entry.get()
     # output_path = output_entry.get()
     # 上下這兩種都可以
@@ -53,7 +53,7 @@ def initialize_ui(root):
     output_select_button.grid(row=8, column=1)
 
     # 執行按鈕
-    excute_button = tk.Button(root, text="執行", command=excute_program)
+    excute_button = tk.Button(root, text="執行", command=excute_my_program)
     # excute_button = tk.Button(root, text="執行", command=lambda: excute_program(get_paths()[0], get_paths()[1])) # 等價
     excute_button.grid(row=10, column=0)
 

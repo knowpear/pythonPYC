@@ -4,6 +4,6 @@ def iterate_folder_files(path_root):
         for file in files:
             print(os.path.join(root, file))
 
-path_root = r"../Path/Layer root"
+path_root = r"Layer root"
 
 iterate_folder_files(path_root)

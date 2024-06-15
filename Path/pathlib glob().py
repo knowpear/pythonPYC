@@ -15,12 +15,15 @@ directory_path = Path('./Layer root')
 
 def find_txt_files1(directory_path):
     # 查找当前目录下所有以.txt结尾的文件
+    # 一次只能找一種
     # 注意：应将directory_path作为字符串处理并与通配符模式拼接
-    txt_files = directory_path.glob('*.txt')
+    txt_files = directory_path.glob('*')
+    # txt_files = directory_path.glob('*.txt') # optional
     print(txt_files) # 打印文件路径集合
     for txt_file in txt_files:
-        print(txt_file) # 打印文件路径
-        print(f"1 Found file: {os.path.basename(txt_file)}")  # 提取文件名
+        if txt_file.is_file():
+            # print(txt_file) # 打印文件路径
+            print(f"1 Found file: {os.path.basename(txt_file)}")  # 提取文件名
 find_txt_files1(directory_path)
 
 def find_txt_files2(directory_path):
